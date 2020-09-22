@@ -2,9 +2,12 @@ Algoritmo Saludar
 	Definir nombre Como Caracter;
 	Definir edad Como Entero;
 	Definir carnet Como Logico;
-	nombre = "Gil Pablo";
-	edad = 19;
-	carnet = Verdadero;
+	
+	Escribir "Dime tu nombre";
+	Leer nombre;
+	Escribir "Dime tu edad";
+	Leer edad;
+	Escribir "Hola ", nombre, " tienes ", edad, " años."
 	
 	Escribir "Nombre:  " nombre;
 	Escribir "Edad:  " edad;
